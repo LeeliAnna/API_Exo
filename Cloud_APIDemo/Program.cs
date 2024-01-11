@@ -1,8 +1,15 @@
+using BLL.Services;
+using DAL.Interfaces;
+using DAL.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepositoryDb>(x => new UserRepositoryDb(builder.Configuration.GetConnectionString("API_EXO")));
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

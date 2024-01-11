@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud_APIDemo", "Cloud_APIDemo\Cloud_APIDemo.csproj", "{00DD3C60-6D53-4AD1-B63B-70C17D8B09A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloud_API_Exo", "Cloud_APIDemo\Cloud_API_Exo.csproj", "{00DD3C60-6D53-4AD1-B63B-70C17D8B09A9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{377A9AB4-FBB2-4C23-9BE9-089990B3997B}"
 EndProject
